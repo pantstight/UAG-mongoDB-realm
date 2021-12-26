@@ -1,0 +1,7 @@
+{
+    "app_id": "requests_handler-dwosm",
+    "config_version": 20210101,
+    "name": "Requests_Handler",
+    "location": "US-OR",
+    "deployment_model": "LOCAL"
+}

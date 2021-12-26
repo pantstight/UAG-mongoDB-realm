@@ -1,0 +1,29 @@
+{
+    "name": "sales_insert_trigger",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT"
+        ],
+        "database": "master",
+        "collection": "sales_master",
+        "service_name": "mongodb-atlas",
+        "match": {
+            "fullDocument.source": {
+                "$eq": "Webhook(sales_insert)"
+            }
+        },
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": true,
+        "unordered": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "triggers/sales/insert"
+            }
+        }
+    }
+}

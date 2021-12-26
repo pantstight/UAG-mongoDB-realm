@@ -1,0 +1,226 @@
+[
+    {
+        "name": "triggers/customer/update",
+        "private": false
+    },
+    {
+        "name": "https/db/insert",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "https/db/delete",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "https/db/update",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "https/sorted_colls/aggregate",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "https/summary/next_level",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "https/summary/channel_year_month_combinations",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "https/sorted_colls/yearly_aggregate",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "https/sorted_colls/monthly_aggregate",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "triggers/customer/insert",
+        "private": false
+    },
+    {
+        "name": "helpers/customer/find_gen_rep",
+        "private": false
+    },
+    {
+        "name": "helpers/customer/find",
+        "private": false
+    },
+    {
+        "name": "helpers/generic/delete",
+        "private": false
+    },
+    {
+        "name": "triggers/customer/delete",
+        "private": false
+    },
+    {
+        "name": "helpers/product/find_identical",
+        "private": false
+    },
+    {
+        "name": "triggers/product/insert",
+        "private": false
+    },
+    {
+        "name": "triggers/product/update",
+        "private": false
+    },
+    {
+        "name": "triggers/product/delete",
+        "private": false
+    },
+    {
+        "name": "helpers/generic/cook",
+        "private": false
+    },
+    {
+        "name": "triggers/sorted_coll/insert",
+        "private": false
+    },
+    {
+        "name": "triggers/customer_product/change_numAssociatedSales",
+        "private": false
+    },
+    {
+        "name": "triggers/summary/grow",
+        "private": false
+    },
+    {
+        "name": "triggers/summary/prune",
+        "private": false
+    },
+    {
+        "name": "triggers/sales/delete",
+        "private": false
+    },
+    {
+        "name": "triggers/sales/insert",
+        "private": false
+    },
+    {
+        "name": "triggers/sales/update",
+        "private": false
+    },
+    {
+        "name": "helpers/sorted_colls/timely_aggregate",
+        "private": false
+    },
+    {
+        "name": "helpers/generic/updated_fields_before_change",
+        "private": false
+    },
+    {
+        "name": "helpers/product/find_with_code",
+        "private": false
+    },
+    {
+        "name": "helpers/sales/delete",
+        "private": false
+    },
+    {
+        "name": "helpers/generic/find_with_id",
+        "private": false
+    },
+    {
+        "name": "helpers/sales/update_customer_and_product_in_sales",
+        "private": false
+    },
+    {
+        "name": "helpers/sales/insert",
+        "private": false
+    },
+    {
+        "name": "helpers/sales/direct_update",
+        "private": false
+    },
+    {
+        "name": "helpers/sales/customer_update",
+        "private": false
+    },
+    {
+        "name": "helpers/sales/delete_with_ids",
+        "private": false
+    },
+    {
+        "name": "helpers/sales/checkout",
+        "private": false
+    },
+    {
+        "name": "helpers/sales/product_update",
+        "private": false
+    },
+    {
+        "name": "triggers/sorted_coll/delete",
+        "private": false
+    },
+    {
+        "name": "helpers/sales/set_then_insert",
+        "private": false
+    },
+    {
+        "name": "helpers/sales/indirect_update",
+        "private": false
+    },
+    {
+        "name": "https/sorted_colls/from_product",
+        "private": false
+    },
+    {
+        "name": "helpers/generic/unCook",
+        "private": false
+    },
+    {
+        "name": "helpers/summary/sorted_coll_names",
+        "private": false
+    },
+    {
+        "name": "helpers/product/_ids",
+        "private": false
+    },
+    {
+        "name": "helpers/sorted_colls/from_product",
+        "private": false
+    },
+    {
+        "name": "helpers/generic/kGen",
+        "private": false
+    },
+    {
+        "name": "helpers/generic/to_sorted_table",
+        "private": false
+    },
+    {
+        "name": "helpers/summary/Country_Codes",
+        "private": false
+    },
+    {
+        "name": "helpers/summary/country",
+        "private": false
+    },
+    {
+        "name": "helpers/summary/product_skipping",
+        "private": false
+    },
+    {
+        "name": "https/summary/product_skipping",
+        "private": false
+    }
+]

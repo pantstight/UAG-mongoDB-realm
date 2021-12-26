@@ -1,0 +1,92 @@
+[
+    {
+        "route": "/db/insert",
+        "http_method": "POST",
+        "function_name": "https/db/insert",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/db/delete",
+        "http_method": "POST",
+        "function_name": "https/db/delete",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/db/update",
+        "http_method": "POST",
+        "function_name": "https/db/update",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/sorted_colls/aggregate",
+        "http_method": "POST",
+        "function_name": "https/sorted_colls/aggregate",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/summary/next_level",
+        "http_method": "POST",
+        "function_name": "https/summary/next_level",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/summary/channel_year_month_combinations",
+        "http_method": "POST",
+        "function_name": "https/summary/channel_year_month_combinations",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/sorted_colls/yearly_aggregate",
+        "http_method": "POST",
+        "function_name": "https/sorted_colls/yearly_aggregate",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/sorted_colls/monthly_aggregate",
+        "http_method": "POST",
+        "function_name": "https/sorted_colls/monthly_aggregate",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/summary/product_skipping",
+        "http_method": "POST",
+        "function_name": "https/summary/product_skipping",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    }
+]

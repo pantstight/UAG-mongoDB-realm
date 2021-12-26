@@ -1,0 +1,29 @@
+{
+    "name": "product_delete_trigger",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "DELETE"
+        ],
+        "database": "master",
+        "collection": "product_master",
+        "service_name": "mongodb-atlas",
+        "match": {
+            "fullDocumentBeforeChange.source": {
+                "$eq": "Webhook(product_delete)"
+            }
+        },
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": true,
+        "unordered": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "triggers/product/delete"
+            }
+        }
+    }
+}
